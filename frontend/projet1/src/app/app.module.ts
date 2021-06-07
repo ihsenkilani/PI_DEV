@@ -29,6 +29,9 @@ import { AdminProductsComponent } from './admin-products/admin-products.componen
 import { FormsModule } from "@angular/forms";
 import { AdminEventComponent } from './admin-event/admin-event.component';
 import { ContributionComponent } from './contribution/contribution.component';
+import { DriverComponent } from './driver/driver.component';
+import { DeliveryComponent } from './delivery/delivery.component';
+import { AutomobileComponent } from './automobile/automobile.component';
 
 
 
@@ -59,6 +62,9 @@ const ROUTES : Routes =[
     AdminProductsComponent,
     AdminEventComponent,
     ContributionComponent,
+    DriverComponent,
+    DeliveryComponent,
+    AutomobileComponent,
   
 
    

@@ -114,6 +114,7 @@
                         <a class="nav-link" id="payment-nav" data-toggle="pill" href="#payment-tab" role="tab"><i class="fa fa-credit-card"></i>Payment Method</a>
                         <a class="nav-link" id="event-nav" data-toggle="pill" href="#event-tab" role="tab"><i class="far fa-calendar-alt"></i>Events</a>
                         <a class="nav-link" id="delivery-nav" data-toggle="pill" href="#delivery-tab" role="tableau"><i class="fas fa-truck"></i>Delivery</a>
+                        <a class="nav-link" id="account-nav" data-toggle="pill" href="#deliveryman-tab" role="tableau"><i class="fas fa-truck"></i>Deliveryman</a>
                         <a class="nav-link" id="claims-nav" data-toggle="pill" href="#claims-tab" role="tab"><i class="fas fa-exclamation-triangle"></i>Claims</a>
                         <a class="nav-link" id="stock-nav" data-toggle="pill" href="#stock-tab" role="tab"><i class="fas fa-cubes"></i>Stock</a>
                         <a class="nav-link" id="forum-nav" data-toggle="pill" href="#forum-tab" role="tab"><i class="far fa-comments"></i>Forum</a>
@@ -198,12 +199,15 @@
                          <!-- DELIVERY -->
 
                          <div class="tab-pane fade" id="delivery-tab" role="tabpanel" aria-labelledby="delivery-nav">
-                            <h4>Delivery</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
-                            </p> 
+                           <app-delivery></app-delivery>
+                            
                         </div>
+                         <!-- Driver -->
 
+                         <div class="tab-pane fade" id="deliveryman-tab" role="tabpanel" aria-labelledby="delivery-nav">
+                            <app-driver></app-driver>
+                             
+                         </div>
                         <!-- CLAIMS -->
 
                         <div class="tab-pane fade" id="claims-tab" role="tabpanel" aria-labelledby="claims-nav">
